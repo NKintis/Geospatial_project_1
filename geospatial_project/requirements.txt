@@ -1,0 +1,10 @@
+geopandas
+pystac
+xarray
+rioxarray
+pystac-client
+rasterio
+shapely
+hda
+pathlib
+

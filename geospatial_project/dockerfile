@@ -1,0 +1,22 @@
+FROM continuumio/miniconda3
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    gdal-bin 
+RUN apt-get install unzip
+RUN pip install --upgrade pip    
+
+RUN conda install -c conda-forge jupyterlab
+
+COPY s2_preprocess.py /app/
+COPY image_download_input.py /app/
+COPY requirements.txt /app/
+COPY sample_data /app/sample_data/
+
+RUN pip install -r requirements.txt
+RUN pip install pystac rasterio
+COPY startup.sh /app/
+
+ENTRYPOINT ["/app/startup.sh"]
+
