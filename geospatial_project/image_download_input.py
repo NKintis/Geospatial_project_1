@@ -1,8 +1,8 @@
 import os
 import zipfile
 
-username = 'thanasisdrivas'
-password = 'Nopassaran123'
+username = os.environ.get('USERNAME')
+password = os.environ.get('PASSWORD')
 
 from hda import Client, Configuration
 from pathlib import Path
