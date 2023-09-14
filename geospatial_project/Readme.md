@@ -11,7 +11,7 @@ Indented code
 	cd geospatial_project
 
 **2. Build the Docker image:**
-'''shell sudo docker build -t image1 -f dockerfile .'''
+'''shell' sudo docker build -t image1 -f dockerfile .'''
 
 **3. Run the Docker container:**
 '''shell'
