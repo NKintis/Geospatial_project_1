@@ -36,6 +36,6 @@ docker run -p 8893:8888 -e USERNAME=nkintis -e PASSWORD=Nikos1234 -e VAR1=22.792
 
 ### Accessing JupyterLab
 
-Open the link provided after running the container to access the prosseced data.
+Open the link provided after running the container to access the processed data.
 
 
