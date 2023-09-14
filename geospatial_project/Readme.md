@@ -1,4 +1,4 @@
-###Getting Started
+### Getting Started
 
 **Building and Running with Docker**
 
@@ -30,7 +30,7 @@ Example:
 docker run -p 8893:8888 -e USERNAME=nkintis -e PASSWORD=Nikos1234 -e VAR1=22.792511 -e VAR2=38.462192 -e VAR3=23.041077 -e VAR4=38.550313 -e VAR5=2018-01-01 -e VAR6=2018-01-02 image1
 ```
 
-###Accessing JupyterLab
+### Accessing JupyterLab
 
 Open a web browser and navigate to http://localhost:8888/ or open the link provided after running the container.
 
