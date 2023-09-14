@@ -1,4 +1,4 @@
-### Getting Started
+## Getting Started
 
 **Building and Running with Docker**
 
