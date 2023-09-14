@@ -21,7 +21,7 @@ sudo docker build -t image1 -f dockerfile .
 docker run -p 8888:8888 -e USERNAME= -e PASSWORD= -e VAR1= -e VAR2= -e VAR3= -e VAR4= -e 		 VAR5= -e VAR6= image1
 ```
 
-**Fill the environment variables (USERNAME, PASSWORD, VAR1, etc.) with your desired values.**
+Fill the environment variables (USERNAME, PASSWORD, VAR1, etc.) with your desired values.
 
 VAR1=MIN_LONGITUDE // VAR2=MIN_LATITUDE // VAR3=MAX_LONGITUDE // VAR4=MAX_LATITUDE// VAR5=START_DATE // VAR6=END_DATE
 
