@@ -1,5 +1,5 @@
 ## Getting Started
-**Download Docker**
+**Download Docker.**
 
 Docker Desktop for Windows:
 ```shell
@@ -22,7 +22,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
 
-**Building and Running with Docker**
+**Building and Running with Docker.**
 
 **To build and run the project using Docker, follow these steps:**
 
