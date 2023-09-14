@@ -11,12 +11,10 @@ Indented code
 	cd geospatial_project
 
 **2. Build the Docker image:**
-'''shell
-sudo docker build -t image1 -f dockerfile .
-'''
+'''shell sudo docker build -t image1 -f dockerfile .'''
 
 **3. Run the Docker container:**
-'''shell
+'''shell'
 docker run -p 8888:8888 -e USERNAME= -e PASSWORD= -e VAR1= -e VAR2= -e VAR3= -e VAR4= -e 		 VAR5= -e VAR6= image1
 '''
 
