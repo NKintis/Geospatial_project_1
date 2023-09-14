@@ -36,6 +36,6 @@ docker run -p 8893:8888 -e USERNAME=nkintis -e PASSWORD=Nikos1234 -e VAR1=22.792
 
 ### Accessing JupyterLab
 
-Open a web browser and navigate to http://localhost:8888/ or open the link provided after running the container.
+Open the link provided after running the container to access the prosseced data.
 
 
