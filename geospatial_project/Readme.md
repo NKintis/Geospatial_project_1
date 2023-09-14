@@ -29,7 +29,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 **1. Clone the repository:**
 ```shell
 	git clone https://github.com/NKintis/Geospatial_project_1
-	cd geospatial_project_1
+	cd Geospatial_project_1
 	cd geospatial_project
 ```
 
