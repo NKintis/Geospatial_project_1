@@ -35,7 +35,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 **2. Build the Docker image:**
 ```shell
-sudo docker build -t image1 -f dockerfile .
+docker build -t image1 -f dockerfile .
 ```
 
 **3. Run the Docker container:**
