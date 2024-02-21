@@ -60,4 +60,5 @@ docker run -p 8893:8888 -e USERNAME=nkintis -e PASSWORD=Nikos1234 -e VAR1=22.792
 
 Open the link provided after running the container to access the processed data on Jupyterlab.
 
+docker run -p 8888:8888 -e USERNAME=thanasisdrivas -e PASSWORD=Nopassaran123 -e VAR1=22.1508722196129 -e VAR2=38.7551983381184 -e VAR3=23.447884976054 -e VAR4=39.7244518411376 -e VAR5=2019-01-01 -e VAR6=2019-01-10 image1
 
